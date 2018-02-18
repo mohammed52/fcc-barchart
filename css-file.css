@@ -1,0 +1,37 @@
+/* csslint box-model:false, order-alphabetical: false*/
+
+html, body{
+	background-color: lightgrey;
+	height: 100%;
+	width: 100%;
+}
+
+.tableAuto{
+	display: table;
+	margin: auto;
+}
+
+
+.verticleCenter{
+	/*left: 50%;*/
+	position: absolute;
+	/*top: 310px;*/
+	/*transform: translate(-50%,-45px);*/
+}
+
+.contentWrapper{
+	color: black;
+	text-align: center;
+}
+
+.testbg-1{
+	border: 5px solid #BA0000;
+}
+
+.testbg-2{
+	border: 5px solid #3B6BA8;
+}
+
+.testbg-3{
+	border: 5px solid #93AD63;
+}
